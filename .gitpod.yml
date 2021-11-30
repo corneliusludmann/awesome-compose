@@ -1,0 +1,4 @@
+tasks:
+  - before: cd traefik-golang
+    init: docker-compose pull
+    command: docker-compose up
